@@ -1,9 +1,19 @@
-.quadrado {
-	border-color: black;
-	border-style: solid;
+.{
+	margin-top: 20px;
 }
 
-.wordle {
+.quadrado {
+	border-color: black;
+	margin left: 200px;
+	margin right: 25%;
+	border: 2px solid;
+	width:40px;
+ 	height:40px;
 	
+	}
+
+.wordle {
+	margin left: 200px;
+	margin right: 25%;
 }
 
