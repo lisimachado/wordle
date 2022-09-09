@@ -4,9 +4,10 @@
 
 .wordle {
 	text-align: center;
-	font-size: 28px;
+	font-size: 16px;
 	font-weight: bold;
 	font-family: "Wordle", Arial, sans-serif;
+	border: 
 }
 
 @font-face {
@@ -14,10 +15,19 @@
 	src: url("fonts/karnakcondensed-normal-700.woff") format("woff");
 }
 	
+.hr {
+	color: #c6c2c2;
+}
+
+#linha-horizontal {
+	width: 100%;
+	border: 0.1px solid #c6c2c2;
+}
+
 .tabuleiro {
 	text-align: center;
 	margin: 1px;
-	}
+}
 
 .quadrado {
 	border: 2px solid #c6c2c2;
