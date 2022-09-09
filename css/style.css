@@ -6,19 +6,30 @@
 	text-align: center;
 	font-size: 28px;
 	font-weight: bold;
+	font-family: "Wordle", Arial, sans-serif;
 }
 
+@font-face {
+	font-family: "Wordle"; 
+	src: url("fonts/karnakcondensed-normal-700.woff") format("woff");
+}
+	
 .tabuleiro {
 	text-align: center;
-	/*margin: 0 35% 0 35%;*/
-}
+	margin: 1px;
+	}
 
 .quadrado {
 	border: 2px solid #c6c2c2;
 	width: 60px;
 	height: 60px;
 	display: inline-block;
-	margin: 1.5px;
+	margin-top: 2.5px;
+	font-size: 32px;
+	color: #fff;
+	line-height: 60px;
+	font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-weight: bold;
 }
 	
 .errado {
@@ -36,92 +47,39 @@
 	border: 2px solid #538d4e;
 }
 
-.letra {
-	font-size: 32px;
+.btn{
+	border: 2px solid;
+	width: 45px;
+	height: 60px;
+	display: inline-block;
+	margin-top: 2.5px;
+	line-height: 55px;
+	border-radius: 4px;
+	margin-top: 6px;
+	margin-inline: 1px;
+	font-size: 13px;
+	font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 700;
+}
+
+.maior {
+	width: 65px;
+}
+
+.cinza-claro{
+	background-color: #c6c2c2;
+	border: #c6c2c2;
+	color: #070707;
+}
+
+.cinza-escuro{
+	background-color: #3a3a3c;
+	border: #3a3a3c;
 	color: #fff;
-	line-height: 60px;
 }
 
-.tabuleiro {
-	margin: 1px;
+.verde{
+	background-color: #538d4e;
+	border: #538d4e;
+	color: #fff;
 }
-	
-	
-	/*border: 2px solid;
-	width:50px;
- 	height:50px;
-	padding: 20px;
-	line-height: 20px;
-	float: inline-start;
-	margin-right: 1px;*/
-/*
-	}
-
-.quadrado2 {
-	border-color: black;
-	border: 2px solid;
-	width:40px;
-	height:40px;
-	padding: 20px;
-	display: inline;
-	margin: 0 1px 0 1px;
-	
-	
-	/*border-color: black;
-	border: 2px solid;
-	width:40px;
-	height:40px;
-	padding: 25px;
-	display: inline;
-	margin: 0 0 0 1px;*/
-	}
-	
-.quadrado3 {
-	border-color: black;
-	border: 2px solid;
-	width:40px;
-	height:40px;
-	padding: 20px;
-	display: inline;
-	margin: 0 1px 0 1px;
-	}
-
-.quadrado4 {
-	border-color: black;
-	border: 2px solid;
-	width:40px;
-	height:40px;
-	padding: 20px;
-	display: inline;
-	margin: 0 1px 0 1px;
-	}
-
-.quadrado5 {
-	border-color: black;
-	border: 2px solid;
-	width:40px;
-	height:40px;
-	padding: 20px;
-	display: inline;
-	margin: 0 1px 0 1px;
-	}	
-
-.quadrado6 {
-	border-color: black;
-	border: 2px solid;
-	width:15px;
-	height:15px;
-	padding: 
-	display: inline;
-	margin: 24px 1px 0 0;
-	}	
-
-.quadrado7 {
-	border-color: black;
-	border: 2px solid;
-	width:40px;
-	height:40px;
-	padding: 20px;
-	display: inline;
-	margin: 0 1px 0 1px;
-	}	
