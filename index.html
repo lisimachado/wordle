@@ -4,15 +4,29 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
+	<script src="https://kit.fontawesome.com/7e4ad6841a.js" crossorigin="anonymous"></script>
+
 	<title>Wordle</title>
 </head>
 <body>
 	
-	<div class="wordle">
-		<h1>Wordle</h1>
+	<div class="header">
+		<div class="parte1">
+			<i class="fa-solid fa-bars"></i>
+			<i class="fa-regular fa-circle-question"></i>
+		</div>
+		<div class="parte2">
+			<h1>Wordle</h1>
+		</div>
+		<div class="parte3">
+		<i class="fa-solid fa-chart-simple"></i>
+		<i class="fa-solid fa-gear"></i>
+		</div>
 		<div id="linha-horizontal"></div>
 	</div>		
+		
 	
 	<div class="tabuleiro">
 		<div class="linha">
@@ -82,7 +96,7 @@
 				<div class="btn cinza-escuro">L</div>
 			</div>
 			<div class="fileira">
-				<div class="btn maior cinza-claro">ENTER</div>
+				<div class="btn enter cinza-claro">ENTER</div>
 				<div class="btn cinza-claro">Z</div>
 				<div class="btn cinza-claro">X</div>
 				<div class="btn verde">C</div>
@@ -90,7 +104,7 @@
 				<div class="btn cinza-claro">B</div>
 				<div class="btn verde">N</div>
 				<div class="btn verde">M</div>		
-				<div class="btn maior cinza-claro"><</div>
+				<div class="btn back cinza-claro"><i class="fa-solid fa-delete-left"></i></div>
 			</div>
 
 
